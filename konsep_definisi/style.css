@@ -1,0 +1,69 @@
+.container {
+    width: 600px;
+    height: 120px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* align-content: space-between; */
+}
+
+/* clear */
+/* .container::after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.container div {
+    /* width: 120px;
+    height: 120px; */
+    flex: 1;
+    background-color: steelblue;
+    margin: 2px;
+}
+
+/* Flex-Grow */
+.container div.dua {
+    flex: 2;
+    align-self: center;
+}
+
+/* Align items */
+/* .container div.tiga {
+    font-size: 60px;
+}
+
+.container div.empat {
+    font-size: 100px;
+} */
+
+/* Order */
+/* .satu {
+    order: 5;
+}
+
+.dua {
+    order: 4;
+}
+
+.tiga {
+    order: 6;
+}
+
+.empat {
+    order: 2;
+}
+
+.lima {
+    order: 3;
+}
+
+.enam {
+    order: 1;
+} */
